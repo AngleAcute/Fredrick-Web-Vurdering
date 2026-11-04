@@ -1,0 +1,1 @@
+document.getElementById("boxScript").textContent = "X"

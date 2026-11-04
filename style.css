@@ -1,3 +1,6 @@
+html{
+	overscroll-behavior-y: none;
+}
 body{
 	margin: 0;
 	background-color: rgb(15, 20, 25);
@@ -9,14 +12,14 @@ body{
 
 h1{
 	font-weight: lighter;
-	font-size: 50px;
+	font-size: 40px;
 	color: white;
 	margin: 0;
 }
 
 header{
 	width: 100vw;
-	height: 100px;
+	height: 15vh;
 	text-align: center;
 	align-content: center;
 	background-color: darkslategray;
@@ -28,11 +31,13 @@ header{
 
 main{
 	width: 100vw;
-	height: 80vh;
+	height: 70vh;
+	box-sizing: border-box;
+	padding-top: 5vh;
 }
 
 footer{
-	height: 100px;
+	height: 15vh;
 	width: 100vw;
 	color: white;
 	text-align: center;
@@ -46,7 +51,7 @@ footer{
 .box{
 	background-color: darkslategray;
 	border-radius: 10px;
-	min-height: 10vh;
+	min-height: 15vh;
 	min-width: 20vw;
 	text-align: center;
 	align-content: center;
