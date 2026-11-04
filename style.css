@@ -1,24 +1,24 @@
 html{
-	overscroll-behavior-y: none;
+	overscroll-behavior-y: none; /* Stops that bouncy overscrolling that I hate */
 }
 body{
-	margin: 0;
-	background-color: rgb(15, 20, 25);
+	margin: 0; /* Gets rid of that damn edge */
+	background-color: rgb(15, 20, 25); /* A bit of experimenting and you get this neat color */
 }
 
 *{
-	font-family: sans-serif;
+	font-family: sans-serif; /* Better than whatever the other one was */
 }
 
-h1{
-	font-weight: lighter;
-	font-size: 40px;
-	color: white;
-	margin: 0;
-}
+h1{ /* The title editing! */
+	font-weight: lighter; /* Thick title looked weird */
+	font-size: 40px; /* Big title looked weird */
+	color: white; /* Black title on dark background looked weird */
+	margin: 0; /* Weird spacing from title looked weird */
+} /* etc etc */
 
 header{
-	width: 100vw;
+	width: 100vw; /* Width and height and alignment and color and border. */
 	height: 15vh;
 	text-align: center;
 	align-content: center;
@@ -29,10 +29,10 @@ header{
 	box-shadow: 3px 3px black;
 }
 
-main{
+main{ /* the main stuff */
 	width: 100vw;
 	height: 70vh;
-	box-sizing: border-box;
+	box-sizing: border-box; 
 	padding-top: 5vh;
 }
 
@@ -42,7 +42,7 @@ footer{
 	color: white;
 	text-align: center;
 	align-content: center;
-	background-color: darkslategray;
+	background-color: darkslategray; /* Because for some reason dark gray is LIGHTER THAN GRAY */
 	border-top: 2px black solid;
 	box-sizing: border-box;
 	border-radius: 40px 40px 0 0;
@@ -57,27 +57,27 @@ footer{
 	align-content: center;
 	color: white;
 	border: black 2px solid;
-	box-shadow: 3px 3px black;
+	box-shadow: 3px 3px black; /* I think you get it at this point... */
 }
 
 #gridTest{
 	display: grid;
-	grid-template-columns: 45vw 45vw;
-	column-gap: 5vw;
-	row-gap: 5vh;
+	grid-template-columns: 45vw 45vw; /* Now it gets interesting again! The two columns of the grid are both 45% of the view width! */
+	column-gap: 5vw; /* Gap between the cololms */
+	row-gap: 5vh; /* gap between you get the point */
 	margin-top: 5vh;
 	margin-bottom: 5vh;
-	margin-left: 2.5vw;
+	margin-left: 2.5vw; /* Margins for many reaosns */
 }
 
-#flexTest{
+#flexTest{ /* Makes them flex, I've made this kind of joke a billion times already */
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 5vh;
 	margin-bottom: 5vh;
 }
 
-#interactiveTest{
+#interactiveTest{ /* Forgot to remove this after you told me to reformat the site, in my defense I was a bit rushed */
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 5vh;
